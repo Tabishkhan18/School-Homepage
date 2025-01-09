@@ -1,0 +1,40 @@
+.wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+
+/* .wrapper::-webkit-scrollbar {
+    display: none;
+} */
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    /* height: 100%; */
+    transform-style: preserve-3d;
+    z-index: -1;
+
+}
+
+.bg{
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-40px) scale(5.2);
+}
+
+.mobilebg{
+    position: absolute;
+    height: 100%;
+    /* width: 100%; */
+    object-fit: cover;
+    z-index: -1;
+    transform: translateZ(-40px) scale(10);
+}
