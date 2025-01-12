@@ -1,11 +1,13 @@
 import React from 'react'
 import '../App.css'
+import bgImage from '../assets/bg.jpg';
+import mobilebgImage from '../assets/mobilebg.jpg';
 
 const Home = () => {
   return (
     <div className='header' id='home'>
-      <img className='pt-10 bg lg:flex hidden' src="./bg.jpg" alt="" />
-      <img className='pt-10 mobilebg lg:hidden flex' src="./mobilebg.jpg" alt="" />
+      <img className='pt-10 bg lg:flex hidden' src={bgImage} alt="" />
+      <img className='pt-10 mobilebg lg:hidden flex' src={mobilebgImage} alt="" />
       <div className="title md:py-28 md:px-10 py-14 px-5 md:mx-28 mx-10 my-56 bg-indigo-500 text-white flex flex-col justify-center">
         <h1 className='py-2 md:text-7xl text-4xl font-bold uppercase'><span>Back To School</span></h1>
         <p className='py-5 md:text-3xl text-lg'>Welcome to all of our students</p>

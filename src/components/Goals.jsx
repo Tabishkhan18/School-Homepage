@@ -1,5 +1,8 @@
 import React from 'react'
 import GoalCard from '../components/GoalCard';
+import goal1 from '../assets/goal1.jpg';
+import goal2 from '../assets/goal2.jpg';
+import goal3 from '../assets/goal3.jpg';
 
 const Goals = () => {
   return (
@@ -14,19 +17,19 @@ const Goals = () => {
         <GoalCard
           title="Experienced Teachers"
           button="Safety Measures"
-          image="https://img.freepik.com/free-photo/young-teacher-helping-little-girl-class_23-2148633378.jpg?t=st=1736422153~exp=1736425753~hmac=65ee4c5bf261b1da0d5f34176715705a6a0fc1144d008d84c6441dec9be92d63&w=740"
+          image={goal1}
           alternateCard="flex-col md:flex-row"
         />
         <GoalCard
           title="Smart Courses"
           button="Apply Today"
-          image="https://img.freepik.com/free-photo/students-doing-homework-park_53876-42624.jpg?t=st=1736422208~exp=1736425808~hmac=6b124c3f18e46719cc41ebd1140446f81b3f4d0447d6e424a1c40a2a6eea97de&w=740"
+          image={goal2}
           alternateCard="md:flex-row-reverse flex-col"
         />
         <GoalCard
           title="Gallery"
           button="Student Information"
-          image="https://img.freepik.com/free-photo/smiley-boy-holding-book-class_23-2148673964.jpg?t=st=1736422248~exp=1736425848~hmac=cff02263b44bd35894cc71ea92fd68694468b97cf289a02804353f806a1091f2&w=740"
+          image={goal3}
           alternateCard="flex-col md:flex-row"
         />
       </div>
